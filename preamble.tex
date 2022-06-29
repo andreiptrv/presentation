@@ -1,0 +1,69 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Darmstadt}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{mathtext}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{cmap}
+\usepackage{bbm}
+\usepackage{tikz}
+\usepackage{float}
+
+
+\usepackage[backend=biber,style=alphabetic,sorting=ynt]{biblatex}
+\usepackage{csquotes}
+\addbibresource{bibliography.bib}
+
+\usepackage{graphicx}
+
+% Types
+
+
+\newcommand{\hm}[1]{#1\nobreak\discretionary{}{\hbox{\ensuremath{#1}}}{}}
+
+\DeclareMathOperator{\sgn}{sign}
+\DeclareMathOperator*{\var}{var}   
+\DeclareMathOperator*{\cov}{cov}
+
+\newcommand{\1}{\mathbbm{1}} 
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\renewcommand{\P}{P}
+\newcommand{\eps}{\varepsilon}
+
+\newcommand\cA{{\cal A}}
+\newcommand\cE{{\cal E}}
+\newcommand\cC{{\cal C}}
+\newcommand\cF{{\cal F}}
+\newcommand\cG{{\cal G}}
+\newcommand\cK{{\cal K}}
+\newcommand\cL{{\cal L}}
+\newcommand\cB{{\cal B}}
+\newcommand\cN{{\cal N}}
+\newcommand\cM{{\cal M}}
+\newcommand\cX{{\cal X}}
+\newcommand\cD{{\cal D}}
+\newcommand\cR{{\cal R}}
+\newcommand\cP{{\cal P}}
+\newcommand\cQ{{\cal Q}}
+\newcommand\cS{{\cal S}}
+\newcommand\cT{{\cal T}}
+\newcommand\cV{{\cal V}}
+\newcommand\cZ{{\cal Z}}
+
+\newcommand{\wt}{\widetilde}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\title{'Pricing under Rough Volatilty Models' Lab Report}
+\author{Artemy Sazonov}
+\date{July 1, 2022}
+\institute{Lomonosov Moscow State University}
